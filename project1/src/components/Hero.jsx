@@ -9,9 +9,9 @@ export default function Hero() {
           alt="paws"
           className=" w-40 h-40 -skew-x-12 rounded-full bg-white"
         />
-        <div className="py-6 font-mono font-bold text-5xl md:text-6xl">
+        <div className="py-6 font-mono font-bold text-5xl md:text-6xl sm:text-3xl">
           Im just{" "}
-          <span className="cursor-pointer text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600text-[#FFA3FD] hover:text-[#E384FF] font-sans italic font-extrabold">
+          <span className="cursor-pointer text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600text-[#FFA3FD] hover:text-[#E384FF] font-sans italic font-extrabold ">
             kitten
           </span>{" "}
           around

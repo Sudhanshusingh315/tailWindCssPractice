@@ -30,9 +30,9 @@ export default function Navbar() {
         </ul>
         <div className="block md:hidden">
           {!nav ? (
-            <IoMdClose size={20} onClick={handleNav} />
-          ) : (
             <FaAlignJustify size={20} onClick={handleNav} />
+          ) : (
+            <IoMdClose size={20} onClick={handleNav} />
           )}
         </div>
       </div>
